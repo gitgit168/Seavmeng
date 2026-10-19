@@ -1,0 +1,38 @@
+
+                    .custom-footer {
+                        background-color: #f8f9fa;
+                        color: #6c757d;
+                        font-size: 0.875rem;
+                    }
+                    
+                    .custom-footer h6 {
+                        font-size: 0.75rem;
+                        letter-spacing: 0.05em;
+                        font-weight: 700;
+                        color: #343a40;
+                    }
+                    
+                    .custom-footer a {
+                        color: #6c757d;
+                        text-decoration: none;
+                    }
+                    
+                    .custom-footer a:hover {
+                        color: #212529;
+                    }
+                    
+                    .footer-badge {
+                        background-color: #e9ecef;
+                        border-radius: 50rem;
+                        padding: 0.25rem 0.75rem;
+                        font-size: 0.75rem;
+                        color: #495057;
+                    }
+                    
+                    .newsletter-input-group {
+                        background: #ffffff;
+                        border: 1px solid #dee2e6;
+                        border-radius: 50rem;
+                        padding: 0.25rem;
+                    }
+   

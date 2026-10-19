@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="km">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Google Fonts: Khmer OS Battambang (Battambang) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="../Computer/style.css">
+
+    <!-- Bootstrap 5 CSS & JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+
+    <style>
+        /* Apply Khmer OS Battambang font globally */
+        
+        body,
+        button,
+        input,
+        select,
+        textarea,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .nav-link,
+        .card-title {
+            font-family: 'Khmer OS Battambang', 'Battambang', cursive, sans-serif !important;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../Images/Logo/logo.png" alt="Logo" width="100" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">ទំព័រដើម</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ផលិតផល</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                អំពីយើង
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ទំនាក់ទំនង</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="ស្វែងរក..." aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../Images/Banner/image1.png" class="d-block w-100 rounded-5" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img
+src="../Images/Banner/image2.png" class="d-block w-100 rounded-5" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../Images/Banner/image3.png" class="d-block w-100 rounded-5" alt="...">
+            </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mt-2">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div>
+                <button class="btn btn-sm btn-outline-secondary" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">Previous</button>
+                <button class="btn btn-sm btn-outline-secondary" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="row g-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <section class="card h-100">
+                    <img src="../Images/c6.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title fs-6">ASUS ROGSTRIX</h4>
+                    </div>
+                </section>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <section class="card h-100">
+                    <img src="../Images/c1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title fs-6">ASUS TUF GAMMING</h4>
+                    </div>
+                </section>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <section class="card h-100">
+                    <img src="../Images/c2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title fs-6">THINKING</h4>
+                    </div>
+                </section>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <section class="card h-100">
+                    <img src="../Images/c3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title fs-6">DELL LATITUDE 5320</h4>
+                    </div>
+                </section>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <section class="card h-100">
+                    <img src="../Images/c4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title fs-6">MICROSOFT AI PRO MODEL CC112</h4>
+                    </div>
+                </section>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <section class="card ">
+                    <img src="../Images/c5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title fs-6">STAR LABTOP</h4>
+
+                    </div>
+
+                </section>
+
+            </div>
+            <div class="row g-3">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <section class="card h-100">
+                        <img src="../Images/c1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title fs-6">ASUS TUF GAMMING</h4>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <section class="card h-100">
+                        <img src="../Images/c2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title fs-6">THINKING</h4>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <section class="card h-100">
+                        <img src="../Images/c3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title fs-6">DELL LATITUDE 5320</h4>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <section class="card h-100">
+                        <img src="../Images/c4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title fs-6">MICROSOFT AI PRO MODEL CC112</h4>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <section class="card h-100">
+                        <img src="../Images/c5.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title fs-6">STAR LABTOP</h4>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <section class="card ">
+                        <img src="../Images/c6.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title fs-6">ASUS ROGSTRIX</h4>
+
+                        </div>
+                    </section>
+                </div>
+                <div class="row g-3">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <section class="card h-100">
+                            <img src="../Images/c1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title fs-6">ASUS TUF GAMMING</h4>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <section class="card h-100">
+                            <img src="../Images/c2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title fs-6">THINKING</h4>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <section class="card h-100">
+                            <img src="../Images/c3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title fs-6">DELL LATITUDE 5320</h4>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <section class="card h-100">
+                            <img src="../Images/c4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+<h4 class="card-title fs-6">MICROSOFT AI PRO MODEL CC112</h4>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <section class="card h-100">
+                            <img src="../Images/c5.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title fs-6">STAR LABTOP</h4>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <section class="card ">
+                            <img src="../Images/c6.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title fs-6">ASUS ROGSTRIX</h4>
+
+                            </div>
+
+                    </div>
+                </div>
+              
+                <!-- Replace your <footer> element with this code -->
+                <footer class="custom-footer py-5 border-top mt-5">
+                    <div class="container">
+                        <div class="row g-4">
+                            <!-- Brand & Info Column -->
+                            <div class="col-12 col-lg-3">
+                                <div class="d-flex align-items-center gap-2 mb-2">
+                                    <img src="../Images/Logo/logo.png" alt="Logo" width="32" height="32" class="rounded-circle bg-dark text-white">
+                                    <span class="fw-bold text-dark fs-6">Seav meng Computer</span>
+                                </div>
+                                <p class="text-muted small mb-3">
+                                    Are you looking for a computer for office work, studies, graphic design, or gaming? 
+                                    Our shop has new, high-quality stock available at unprecedented, special prices!
+                                </p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <span class="footer-badge fw-semibold">Support 24/7</span>
+                                    <span class="text-muted small">Updated weekly</span>
+                                </div>
+                            </div>
+
+                            <!-- Product Links -->
+                            <div class="col-6 col-sm-3 col-lg-2">
+                                <h6 class="text-uppercase mb-3">PRODUCT</h6>
+                                <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
+                                    <li><a href="#">Features</a></li>
+                                    <li><a href="#">Templates</a></li>
+                                    <li><a href="#">Integrations</a></li>
+                                    <li><a href="#">Security</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Company Links -->
+                            <div class="col-6 col-sm-3 col-lg-2">
+                                <h6 class="text-uppercase mb-3">COMPANY</h6>
+                                <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Press</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Resources Links -->
+                            <div class="col-6 col-sm-3 col-lg-2">
+                                <h6 class="text-uppercase mb-3">RESOURCES</h6>
+                                <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Guides</a></li>
+                                    <li><a href="#">API Docs</a></li>
+                                    <li><a href="#">Status</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Legal Links -->
+                            <div class="col-6 col-sm-3 col-lg-1">
+                                <h6 class="text-uppercase mb-3">LEGAL</h6>
+                                <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Terms</a></li>
+                                    <li><a href="#">Cookies</a></li>
+                                    <li><a href="#">Accessibility</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Newsletter Column -->
+                            <div class="col-12 col-lg-2">
+                                <h6 class="text-uppercase mb-3">NEWSLETTER</h6>
+                                <p class="small text-muted mb-3">Get product updates, launch notes, and design insights delivered to your inbox.</p>
+                                <form class="newsletter-input-group d-flex align-items-center">
+                                    <input type="email" class="form-control border-0 bg-transparent shadow-none form-control-sm px-3" placeholder="Email address">
+                                    <button class="btn btn-dark btn-sm rounded-pill px-3 py-1" type="submit">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- Bottom Copyright Row -->
+                        <div class="row pt-4 mt-4 border-top text-muted small align-items-center">
+                            <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+                                © 2026 Seav Meng.
+                            </div>
+                            <div class="col-md-6 text-center text-md-end d-flex justify-content-center justify-content-md-end gap-3">
+                                <span class="text-muted">Follow us</span>
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi
